@@ -33,4 +33,139 @@ a {
   --black: black;
   --Strawberry:#FF432A;
   --Brainstem-Grey: #b5b5b5;
+} 
+header .container a{
+font-size: 20px;
+font-weight: 600;
+color: var(--black);
+position: absolute;
+padding: 20px;
+}
+section .container .image{
+  width: 60%;
+}
+section .container .image img{
+  width: 100%;
+}
+section .container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+section .container h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+section .container p,
+span {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+section .container a {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 15px;
+  color: var(--Strawberry);
+}
+section .container form {
+  padding-top: 50px;
+}
+section .container label {
+  font-size: 13px;
+  font-weight: 500;
+}
+section .container form .enter_email {
+  display: flex;
+  margin-bottom: 50px;
+  padding-top: 5px;
+}
+section .container form .enter_email img {
+  height: 20px;
+  margin-top: 5px;
+}
+section .container form .enter_email input {
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+section .container form .enter_email input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: var(--black);
+}
+section .container form .enter_email {
+  border-bottom: 2px solid var(--Strawberry);
+}
+#enter_password {
+  border-bottom: 2px solid var(--black);
+}
+section .container form .remebmebr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .container form .remebmebr .check label,
+.forgot a {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--black);
+  padding-left: 5px;
+}
+section .container form .remebmebr .forgot a {
+  color: var(--black);
+}
+section .container form .submit {
+  background-color: var(--Strawberry);
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 32px;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--white);
+  margin-top: 50px;
+}
+section .container .social_icon {
+  text-align: center;
+  padding-top: 40px;
+  color: var(--Brainstem-Grey);
+  font-size: 16px;
+  font-weight: 500;
+}
+section .container .social_icon img {
+  margin: 20px 10px 0 0;
+}
+section .container .image {
+  border-radius: 15px;
+  width: 60%;
+  height: 100%;
+  background-color: var(--Lapis-on-Neptune);
+}
+section .container .image img {
+  margin-left: 70px;
+}
+section .container .image h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--white);
+  padding-left: 20px;
+  margin-top: 75px;
+}
+section .container .image p {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--white);
+  padding: 0 0 10px 20px;
+}
+@media (max-width: 991px) {
+  section .container .image {
+    display: none;
+  }
+  section .container .login {
+    width: 100%;
+  }
 }
