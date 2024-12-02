@@ -28,3 +28,9 @@ body {
 a {
   text-decoration: none;
 }
+:root {
+  --white: white;
+  --black: black;
+  --Strawberry:#FF432A;
+  --Brainstem-Grey: #b5b5b5;
+}
