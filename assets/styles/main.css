@@ -64,11 +64,18 @@ span {
   font-weight: 400;
   padding-top: 30px;
 }
+section .container{
+  height: calc(100vh - 45px);
+}
 section .container a {
   font-size: 16px;
   font-weight: 600;
   padding-left: 15px;
   color: var(--Strawberry);
+}
+section .container .login{
+  padding: 30px 0 0 50px;
+  flex-grow: 1;
 }
 section .container form {
   padding-top: 50px;
@@ -131,7 +138,6 @@ section .container form .submit {
 }
 section .container .social_icon {
   text-align: center;
-  padding-top: 40px;
   color: var(--Brainstem-Grey);
   font-size: 16px;
   font-weight: 500;
@@ -139,33 +145,15 @@ section .container .social_icon {
 section .container .social_icon img {
   margin: 20px 10px 0 0;
 }
-section .container .image {
-  border-radius: 15px;
-  width: 60%;
-  height: 100%;
-  background-color: var(--Lapis-on-Neptune);
-}
-section .container .image img {
-  margin-left: 70px;
-}
-section .container .image h2 {
-  font-size: 40px;
-  font-weight: 600;
-  color: var(--white);
-  padding-left: 20px;
-  margin-top: 75px;
-}
-section .container .image p {
-  font-size: 20px;
-  font-weight: 300;
-  color: var(--white);
-  padding: 0 0 10px 20px;
-}
 @media (max-width: 991px) {
   section .container .image {
     display: none;
   }
   section .container .login {
     width: 100%;
+    padding: 0;
+  }
+  header{
+    height: 70px;
   }
 }
